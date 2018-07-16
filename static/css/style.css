@@ -1,3 +1,42 @@
+body {
+  background-color: #7F81B2; }
 
+#navbar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #090A3B; }
+
+.navitem {
+  float: left; }
+
+.navitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navitem a:hover {
+  background-color: #1A1B59; }
+
+.active {
+  background-color: #7F81B2; }
+
+@media (min-width: 600px) {
+  h1::before {
+    content: "Welcome to My "; } }
+h1, h3, p {
+  text-align: center; }
+
+.sec {
+  text-align: center;
+  padding: 10px; }
+
+img.center {
+  display: block;
+  margin: 0 auto; }
+
+.ding {
+  padding: 0px; }
 
 /*# sourceMappingURL=style.css.map */

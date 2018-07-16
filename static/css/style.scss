@@ -1,0 +1,59 @@
+$color1: #7F81B2;
+$color2: #555794;
+$color3: #1A1B59;
+$color4: #090A3B;
+
+body { 
+    background-color: $color1;
+}
+
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: $color4;
+}
+
+.navitem {
+    float: left;
+}
+
+.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    background-color: $color3;
+}
+
+.active {
+    background-color: $color1;
+}
+
+@media (min-width: 600px) {
+    h1::before {
+        content: "Welcome to My ";
+    }
+}
+
+h1, h3, p{ 
+    text-align: center;
+}
+
+.sec {
+    text-align: center;
+    padding: 10px;
+}
+
+img.center{ 
+    display: block;
+    margin: 0 auto;
+}
+.ding {
+    padding: 0px;
+}
+
+
