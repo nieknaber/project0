@@ -23,7 +23,7 @@ body {
   background-color: #7F81B2; }
 
 @media (min-width: 600px) {
-  h1::before {
+  h1.index::before {
     content: "Welcome to My "; } }
 h1, h3, p {
   text-align: center; }
@@ -38,5 +38,28 @@ img.center {
 
 .ding {
   padding: 0px; }
+
+.row {
+  margin-top: 60px; }
+
+table {
+  border: 2px solid #090A3B;
+  border-collapse: collapse;
+  background-color: #555794; }
+  table th, table td {
+    border: 1px solid #090A3B;
+    border-collapse: collapse;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: white; }
+
+.right {
+  text-align: right; }
+
+.under {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */

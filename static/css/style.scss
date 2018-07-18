@@ -34,7 +34,7 @@ body {
 }
 
 @media (min-width: 600px) {
-    h1::before {
+    h1.index::before {
         content: "Welcome to My ";
     }
 }
@@ -56,4 +56,32 @@ img.center{
     padding: 0px;
 }
 
+.row {
+    margin-top: 60px;
+    
+}
 
+table {
+    border: 2px solid $color4;
+    border-collapse: collapse;
+    background-color: $color2;
+    
+    th, td {
+        border: 1px solid $color4;
+        border-collapse: collapse;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.right {
+        text-align: right;
+    }
+
+.under {
+    margin-bottom: 30px;
+}
