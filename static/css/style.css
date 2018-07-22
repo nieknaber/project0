@@ -28,6 +28,14 @@ body {
 h1, h3, p {
   text-align: center; }
 
+@media (max-width: 991px) {
+  .resp {
+    text-align: center; } }
+
+@media (max-width: 991px) {
+  .b {
+    margin-top: 30px; } }
+
 .sec {
   text-align: center;
   padding: 10px; }
@@ -42,10 +50,21 @@ img.center {
 .row {
   margin-top: 60px; }
 
+@media (max-width: 991px) {
+  .rightMiddle, table {
+    margin-left: auto;
+    margin-right: auto; } }
+
+.rightMiddle {
+  display: block; }
+
 table {
   border: 2px solid #090A3B;
   border-collapse: collapse;
   background-color: #555794; }
+  @media (min-width: 992px) {
+    table {
+      float: right; } }
   table th, table td {
     border: 1px solid #090A3B;
     border-collapse: collapse;

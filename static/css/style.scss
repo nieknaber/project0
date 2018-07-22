@@ -43,6 +43,17 @@ h1, h3, p{
     text-align: center;
 }
 
+.resp {
+    @media (max-width: 991px) {
+        text-align: center;
+    }
+}
+
+.b {
+    @media (max-width: 991px) {
+        margin-top: 30px;
+    }
+}
 .sec {
     text-align: center;
     padding: 10px;
@@ -61,11 +72,28 @@ img.center{
     
 }
 
+%abstract {
+
+    @media (max-width: 991px) {
+        margin-left:auto; 
+        margin-right:auto;
+    }
+}
+
+.rightMiddle {
+    @extend %abstract;
+    display: block;
+}
+
 table {
     border: 2px solid $color4;
     border-collapse: collapse;
     background-color: $color2;
-    
+    @extend %abstract;
+    @media (min-width: 992px) {
+        float:right;
+    }
+
     th, td {
         border: 1px solid $color4;
         border-collapse: collapse;
@@ -84,4 +112,5 @@ table {
 
 .under {
     margin-bottom: 30px;
+
 }
